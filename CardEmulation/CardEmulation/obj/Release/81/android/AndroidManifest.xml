@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.xamarin.CardEmulation" android:installLocation="auto">
+  <uses-feature android:name="android.hardware.nfc.hce" android:required="true" />
+  <uses-permission android:name="android.permission.NFC" />
+  <application android:label="CardEmulation" android:theme="@style/AppTheme" android:name="android.app.Application" android:allowBackup="true" android:icon="@drawable/icon">
+    <activity android:icon="@drawable/icon" android:label="CardEmulation" android:name="md5cdd85ee222abd4ffe44e635053a2f7bb.MainActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <service android:enabled="true" android:exported="true" android:permission="android.permission.BIND_NFC_SERVICE" android:name="md5cdd85ee222abd4ffe44e635053a2f7bb.CardService">
+      <meta-data android:name="android.nfc.cardemulation.host_apdu_service" android:resource="@xml/aid_list" />
+      <intent-filter>
+        <action android:name="android.nfc.cardemulation.action.HOST_APDU_SERVICE" />
+        <category android:name="android.intent.category.DEFAULT" />
+      </intent-filter>
+    </service>
+    <activity android:label="SampleActivityBase" android:name="md5aa0d5e9b749da19b5dcfe57aec602e55.SampleActivityBase" />
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="com.xamarin.CardEmulation.mono.MonoRuntimeProvider.__mono_init__" />
+  </application>
+  <uses-sdk android:targetSdkVersion="27" android:minSdkVersion="11" />
+</manifest>

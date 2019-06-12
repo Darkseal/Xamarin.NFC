@@ -1,0 +1,12 @@
+D:\DarkAngel\Projects\GitHub\monodroid-samples\CardEmulation\CardEmulation\obj\Debug\81\android\assets\CardEmulation.dll
+D:\DarkAngel\Projects\GitHub\monodroid-samples\CardEmulation\CardEmulation\obj\Debug\81\android\assets\CommonSampleLibrary.dll
+D:\DarkAngel\Projects\GitHub\monodroid-samples\CardEmulation\CardEmulation\obj\Debug\81\android\assets\Java.Interop.dll
+D:\DarkAngel\Projects\GitHub\monodroid-samples\CardEmulation\CardEmulation\obj\Debug\81\android\assets\Mono.Android.dll
+D:\DarkAngel\Projects\GitHub\monodroid-samples\CardEmulation\CardEmulation\obj\Debug\81\android\assets\mscorlib.dll
+D:\DarkAngel\Projects\GitHub\monodroid-samples\CardEmulation\CardEmulation\obj\Debug\81\android\assets\System.Core.dll
+D:\DarkAngel\Projects\GitHub\monodroid-samples\CardEmulation\CardEmulation\obj\Debug\81\android\assets\System.dll
+D:\DarkAngel\Projects\GitHub\monodroid-samples\CardEmulation\CardEmulation\obj\Debug\81\android\assets\System.Xml.dll
+D:\DarkAngel\Projects\GitHub\monodroid-samples\CardEmulation\CardEmulation\obj\Debug\81\android\assets\System.Net.Http.dll
+D:\DarkAngel\Projects\GitHub\monodroid-samples\CardEmulation\CardEmulation\obj\Debug\81\android\assets\System.Runtime.Serialization.dll
+D:\DarkAngel\Projects\GitHub\monodroid-samples\CardEmulation\CardEmulation\obj\Debug\81\android\assets\System.ServiceModel.Internals.dll
+D:\DarkAngel\Projects\GitHub\monodroid-samples\CardEmulation\CardEmulation\obj\Debug\81\android\assets\Mono.Security.dll

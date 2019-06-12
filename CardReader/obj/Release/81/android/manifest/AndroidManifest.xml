@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ Copyright 2013 The Android Open Source Project
+
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.xamarin.cardreader">
+  <uses-permission android:name="android.permission.NFC" />
+  <uses-feature android:name="android.hardware.nfc" android:required="true" />
+  <application android:allowBackup="true" android:label="@string/app_name" android:icon="@drawable/ic_launcher" android:theme="@style/AppTheme" android:name="android.app.Application">
+    <activity android:icon="@drawable/ic_launcher" android:label="@string/app_name" android:name="md5c0bb484570e368c154e2d1091ebfb7c8.MainActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+      <meta-data android:name="android.nfc.action.TECH_DISCOVERED" android:resource="@xml/nfc_tech_filter" />
+      <intent-filter>
+        <action android:name="android.nfc.action.TECH_DISCOVERED" />
+      </intent-filter>
+    </activity>
+    <activity android:label="SampleActivityBase" android:name="md5aa0d5e9b749da19b5dcfe57aec602e55.SampleActivityBase" />
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="com.xamarin.cardreader.mono.MonoRuntimeProvider.__mono_init__" />
+  </application>/&gt;
+<uses-sdk android:targetSdkVersion="27" android:minSdkVersion="11" /></manifest>

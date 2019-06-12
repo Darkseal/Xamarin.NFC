@@ -1,0 +1,8 @@
+D:\DarkAngel\Projects\GitHub\monodroid-samples\CardReader\obj\Release\81\android\assets\CardReader.dll
+D:\DarkAngel\Projects\GitHub\monodroid-samples\CardReader\obj\Release\81\android\assets\CommonSampleLibrary.dll
+D:\DarkAngel\Projects\GitHub\monodroid-samples\CardReader\obj\Release\81\android\assets\Java.Interop.dll
+D:\DarkAngel\Projects\GitHub\monodroid-samples\CardReader\obj\Release\81\android\assets\Mono.Android.dll
+D:\DarkAngel\Projects\GitHub\monodroid-samples\CardReader\obj\Release\81\android\assets\mscorlib.dll
+D:\DarkAngel\Projects\GitHub\monodroid-samples\CardReader\obj\Release\81\android\assets\System.dll
+D:\DarkAngel\Projects\GitHub\monodroid-samples\CardReader\obj\Release\81\android\assets\System.Core.dll
+D:\DarkAngel\Projects\GitHub\monodroid-samples\CardReader\obj\Release\81\android\assets\System.Runtime.Serialization.dll
